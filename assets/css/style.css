@@ -51,6 +51,10 @@ button {
 nav > button > a {
   color: white;
 }
+a[href="#"]{
+  background-color: green;
+  color:white;
+}
 button:hover {
   background-color: green;
 }
@@ -67,12 +71,12 @@ a:visited {
   left: 200px;
   top: -130px;
 }
-article{
-    padding-top: 5%;
+article {
+  padding-top: 5%;
 }
-section>p{
-    padding-top: 2%;
+section > p {
+  padding-top: 2%;
 }
-article>p{
-    text-indent: 3%;
+article > p {
+  text-indent: 3%;
 }
