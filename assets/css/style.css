@@ -6,12 +6,9 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  font-family: Verdana;
+  font-family: "comic sans MS";
 }
 
-/* acomodado de header y nav*/
 header {
   width: 85vw;
   height: 30vh;
@@ -25,53 +22,61 @@ header {
 nav {
   display: inline;
   position: absolute;
-  top: 6%;
-  left: 55%;
+  top: 4%;
+  left: 66vw;
+}
+
+main {
+  width: 85vw;
+  height: 100vh;
+  margin: 0px 5%;
 }
 
 /* titulo */
 .titulo {
   font-style: oblique;
   position: absolute;
-  top: 1vh;
+  top: 0vh;
   left: 10vh;
 }
 
 /* subtitulo */
-section h3 {
+.subtitulo {
   text-align: center;
   border-style: solid;
   border-color: black;
   border-width: 1px;
   width: 85vw;
-  height: 5vh;
-  margin: 0px 5% 50px;
+  height: 6vh;
 }
 
-aside{
+aside {
   position: absolute;
+  width: 25%;
   margin: 15px 5px 0px 0px;
   top: 41vh;
   left: 5vw;
 }
-/* logo */
-.logo{
+
+/* logo e imagen dentro del aside*/
+.logo {
   display: block;
   height: 25vh;
   width: 25vh;
 }
-.imagen{
+.imagen {
   display: block;
   height: 20vh;
   width: 25vh;
+  margin-top: 35px;
 }
 
-/* botones */
-.boton{
-  display:inline;
-  width: 100px;
+/* botones del nav*/
+.boton {
+  display: inline-block;
+  width: 95px;
   margin: 5px 5px;
-  padding: 15px 30px;
+  padding: 5px 20px;
   color: white;
   background-color: blue;
   text-decoration: none;
@@ -90,15 +95,16 @@ aside{
 
 /* cuerpo */
 .cuerpo {
-  position: relative;
-  left: 200px;
-  top: -130px;
+  display: inline-block;
+  position: absolute;
+  width: 62%;
+  left: 273px;
+  top: 245px;
+  margin: 20px 12px;
 }
 article {
   padding-top: 5%;
-}
-section > p {
-  padding-top: 2%;
+  width: 62vw;
 }
 article > p {
   text-indent: 3%;
