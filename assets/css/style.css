@@ -11,6 +11,7 @@ body {
   font-family: Verdana;
 }
 
+/* acomodado de header y nav*/
 header {
   width: 85vw;
   height: 30vh;
@@ -25,7 +26,7 @@ nav {
   display: inline;
   position: absolute;
   top: 6%;
-  left: 60%;
+  left: 55%;
 }
 
 /* titulo */
@@ -33,7 +34,7 @@ nav {
   font-style: oblique;
   position: absolute;
   top: 1vh;
-  left: 8vh;
+  left: 10vh;
 }
 
 /* subtitulo */
@@ -43,37 +44,47 @@ section h3 {
   border-color: black;
   border-width: 1px;
   width: 85vw;
+  height: 5vh;
   margin: 0px 5% 50px;
 }
 
+aside{
+  position: absolute;
+  margin: 15px 5px 0px 0px;
+  top: 41vh;
+  left: 5vw;
+}
 /* logo */
-.logo {
+.logo{
+  display: block;
   height: 25vh;
+  width: 25vh;
+}
+.imagen{
+  display: block;
+  height: 20vh;
   width: 25vh;
 }
 
 /* botones */
-button {
-  width: 90px;
-  height: 30px;
-  border-radius: 10%;
-  background-color: rgb(0, 163, 218);
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-}
-nav > button > a {
+.boton{
+  display:inline;
+  width: 100px;
+  margin: 5px 5px;
+  padding: 15px 30px;
   color: white;
-}
-a[href="#"] {
-  background-color: green;
-  color: white;
-}
-button:hover {
-  background-color: green;
-}
-a:link {
+  background-color: blue;
   text-decoration: none;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
-a:visited {
+.boton[href="#"] {
+  background-color: green;
+  color: white;
+}
+.boton:visited {
   text-decoration: none;
 }
 
