@@ -36,9 +36,6 @@ main {
   height: 200vh;
   margin: 0px 5%;
 }
-footer{
-  display: flex;
-}
 
 /* titulo */
 .titulo {
