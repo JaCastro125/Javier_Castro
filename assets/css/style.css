@@ -20,10 +20,15 @@ header {
   padding: 0.5rem;
 }
 nav {
-  display: inline;
+  display: flex;
   position: absolute;
   top: 4%;
-  left: 66vw;
+  left: 51vw;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
 }
 
 main {
@@ -55,16 +60,16 @@ main {
 }
 
 aside {
-  position: absolute;
-  width: 25%;
-  margin: 15px 5px 0px 0px;
-  top: 41vh;
-  left: 5vw;
+  display: flex;
+  width: 20vw;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /* logo e imagen dentro del aside*/
 .logo {
-  display: block;
   height: 25vh;
   width: 25vh;
 }
@@ -100,12 +105,21 @@ aside {
 
 /* cuerpo */
 .cuerpo {
-  display: inline-block;
+  width: 62vw;
+  display: flex;
   position: absolute;
-  width: 62%;
-  left: 273px;
-  top: 245px;
+  left: 265px;
+  top: 290px;
   margin: 20px 12px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+article{
+  margin-bottom: 20px;
 }
 
 article > p {
@@ -113,7 +127,7 @@ article > p {
 }
 
 p {
-  padding-top: 8px;
+  padding-bottom: 20px;
 }
 
 /* tablas */
@@ -123,9 +137,6 @@ table {
 }
 table {
   width: 100%;
-}
-.tablageneral {
-  padding-top: 10%;
 }
 .tablaespacio{
   padding-top: 10px;
@@ -142,4 +153,7 @@ ul {
 }
 li {
   padding-top: 8px;
+}
+.circulos{
+  list-style: circle;
 }
