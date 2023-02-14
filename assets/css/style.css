@@ -33,8 +33,11 @@ nav {
 
 main {
   width: 85vw;
-  height: 100vh;
+  height: 200vh;
   margin: 0px 5%;
+}
+footer{
+  display: flex;
 }
 
 /* titulo */
