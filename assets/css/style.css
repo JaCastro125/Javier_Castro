@@ -49,6 +49,10 @@ main {
   width: 85vw;
   height: 6vh;
 }
+/* subtitulo2 */
+.subtitulo2 {
+  text-align: center;
+}
 
 aside {
   position: absolute;
@@ -81,6 +85,7 @@ aside {
   background-color: blue;
   text-decoration: none;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
   border-style: solid;
   border-color: black;
   border-width: 1px;
@@ -102,10 +107,39 @@ aside {
   top: 245px;
   margin: 20px 12px;
 }
-article {
-  padding-top: 5%;
-  width: 62vw;
-}
+
 article > p {
   text-indent: 3%;
+}
+
+p {
+  padding-top: 8px;
+}
+
+/* tablas */
+article,
+table {
+  width: 62vw;
+}
+table {
+  width: 100%;
+}
+.tablageneral {
+  padding-top: 10%;
+}
+.tablaespacio{
+  padding-top: 10px;
+}
+th,
+td {
+  text-align: center;
+}
+ol {
+  padding-top: 8px;
+}
+ul {
+  margin-left: 40px;
+}
+li {
+  padding-top: 8px;
 }
