@@ -149,7 +149,7 @@ table {
   width: 100%;
 }
 .tablageneral {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 th,
@@ -179,7 +179,22 @@ li {
 }
 
 /* formulario */
-fieldset{
+fieldset {
   margin-bottom: 15px;
   padding: 10px;
+}
+
+/* mapas */
+iframe {
+  margin: 1rem;
+  border-radius: 1rem;
+  width: 25vw;
+  height: 25vh;
+  box-shadow: 5px 5px rgb(0 0 0 / 50%);
+}
+.mapas{
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
