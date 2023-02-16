@@ -32,92 +32,138 @@
             <form action="./show_data.html" method="get">
                 <fieldset>
                     <legend><strong>Personal Information</strong></legend>
-                    <label>
-                        Players First Name:
-                        <input type="text" name="first_name" class="first_name">
-                    </label>
-                    <label>
-                        Last Name:
-                        <input type="text" name="last_name" class="last_name">
-                    </label>
-                    <label>
-                        Street Address:
-                        <input type="text" name="address" class="adress">
-                    </label>
-                    <label>
-                        City:
-                        <input type="text" name="city" class="city">
-                    </label>
-                    <label>
-                        Zip Code:
-                        <input type="text" name="zip_code" class="zip_code">
-                    </label>
-                    <label>
-                        Birth Date(mm/dd/yyyy):
-                        <input type="date" name="birth_date" class="birth_date">
-                    </label>
-                    Gender:
-                    <label>Female</label>
-                    <input type="radio" name="gender" value="F">
-                    <label>Male</label>
-                    <input type="radio" name="gender" value="M">
+                    <fieldset>
+                        <label>
+                            Players First Name:
+                            <input type="text" name="first_name" class="first_name">
+                        </label>
+                        <label>
+                            Last Name:
+                            <input type="text" name="last_name" class="last_name">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            Street Address:
+                            <input type="text" name="address" class="adress">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            City:
+                            <input type="text" name="city" class="city">
+                        </label>
+                        <label>
+                            Zip Code:
+                            <input type="text" name="zip_code" class="zip_code">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            Birth Date(mm/dd/yyyy):
+                            <input type="date" name="birth_date" class="birth_date">
+                        </label>
+                        Gender:
+                        <label>
+                            Female
+                            <input type="radio" name="gender" value="F">
+                        </label>
+                        <label>
+                            Male
+                            <input type="radio" name="gender" value="M">
+                        </label>
+                    </fieldset>
                     <fieldset>
                         <legend>Grade:</legend>
-                        <input type="radio" name="grade" value="P">
-                        <label>Pre-School</label>
-                        <input type="radio" name="grade" value="1">
-                        <label>1st</label>
-                        <input type="radio" name="grade" value="2">
-                        <label>2nd</label>
-                        <input type="radio" name="grade" value="3">
-                        <label>3rd</label>
-                        <input type="radio" name="grade" value="4">
-                        <label>4th</label>
-                        <input type="radio" name="grade" value="5">
-                        <label>5th</label>
+                        <label>
+                            <input type="radio" name="grade" value="Pre-School">
+                            Pre-School
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="1st">
+                            1st
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="2nd">
+                            2nd
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="3rd">
+                            3rd
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="4th">
+                            4th
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="5th">
+                            5th
+                        </label>
                     </fieldset>
                 </fieldset>
                 <fieldset>
                     <legend><strong>Wich elementary school do you live near?</strong></legend>
                     <label>
                         School
-                        <select name="near_school" id="select">
-                            <option value="AJ_K">AJ Katzenmaier</option>
-                            <option value="M_P_H">Marjorie P Hart</option>
-                            <option value="G">Greenbay</option>
-                            <option value="N_L">North Elementary</option>
-                            <option value="H_Y">Howard a Yeaguer</option>
-                            <option value="S_E">South Elemantary</option>
+                        <select multiple name="near_school" id="select">
+                            <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="Howard a Yeaguer">Howard a Yeaguer</option>
+                            <option value="South Elemantary">South Elemantary</option>
                         </select>
                     </label>
                 </fieldset>
                 <fieldset>
                     <legend><strong>What position(s) do you normally play? (check all that apply)</strong></legend>
-                    <input type="checkbox" name="position" value="Forward">
-                    <label>Forward</label>
-                    <input type="checkbox" name="position" value="Midfield">
-                    <label>Midfield</label>
-                    <input type="checkbox" name="position" value="Defense">
-                    <label>Defense</label>
-                    <input type="checkbox" name="position" value="Goalkeeper">
-                    <label>Goalkeeper</label>
+                    <label>
+                        <input type="checkbox" name="position" value="Forward">
+                        Forward
+                    </label>
+                    <label>
+                        <input type="checkbox" name="position" value="Midfield">
+                        Midfield
+                    </label>
+                    <label>
+                        <input type="checkbox" name="position" value="Defense">
+                        Defense
+                    </label>
+                    <label>
+                        <input type="checkbox" name="position" value="Goalkeeper">
+                        Goalkeeper
+                    </label>
                 </fieldset>
                 <fieldset>
                     <legend><strong>Uniform Size</strong></legend>
-                    <input type="radio" name="size" value="Youth Small">
-                    <label>Youth Small</label>
-                    <input type="radio" name="size" value="Medium">
-                    <label>Medium</label>
-                    <input type="radio" name="size" value="Youth Medium">
-                    <label>Youth Medium</label>
-                    <input type="radio" name="size" value="Large">
-                    <label>Large</label>
-                    <input type="radio" name="size" value="Youth Large">
-                    <label>Youth Large</label>
-                    <input type="radio" name="size" value="Extra Large">
-                    <label>Extra Large</label>
-                    <input type="radio" id="3" name="size" value="Small">
-                    <label>Small</label>
+                    <label>
+                        <input type="radio" name="size" value="Youth Small">
+                        Youth Small
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="Medium">
+                        Medium
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="Youth Medium">
+                        Youth Medium
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="Large">
+                        Large
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="Youth Large">
+                        Youth Large
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="Extra Large">
+                        Extra Large
+                    </label>
+                    <label>
+                        <input type="radio" id="3" name="size" value="Small">
+                        Small
+                    </label>
                 </fieldset>
                 <fieldset>
                     <legend><strong>Permission to Play</strong></legend>
